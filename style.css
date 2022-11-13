@@ -146,18 +146,3 @@ input[type="submit"]:active{
     opacity: 0.8;
 }
 
-.draw {
-    background-color: #000;
- }
- path {
-    stroke: green;
-    stroke-width: 6;
-    stroke-dasharray: 6488;
-    stroke-dashoffset: 6488;
-    animation: draw 7s linear forwards;
- }
- @keyframes draw {
-    100% {
-       stroke-dashoffset: 0;
-    }
- }
